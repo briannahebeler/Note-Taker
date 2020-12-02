@@ -13,7 +13,7 @@ router.get("/notes", (req, res) => {
 // Use addNote in the store object
 router.post("/notes", (req, res) => {
   store
-  .addNote()
+  .addNote(req.body)
   .then((notes) => res.json(notes))
   .catch((err) => res.status(500).json(err));
 });
@@ -23,7 +23,7 @@ router.post("/notes", (req, res) => {
 // Use removeNote method in the store object
 router.delete("/notes", (req, res) => {
   store
-  .removeNote()
+  .removeNote(req.params.id)
   .then((notes) => res.json(notes))
   .catch((err) => res.status(500).json(err));
 });
