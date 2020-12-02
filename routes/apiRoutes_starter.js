@@ -11,7 +11,12 @@ router.get("/notes", (req, res) => {
 
 // POST "/api/notes" 
 // Use addNote in the store object
-// YOUR CODE HERE
+router.post("/notes", (req, res) => {
+  store
+  .addNote()
+  .then((notes) => res.json(notes))
+  .catch((err) => res.status(500).json(err));
+});
 
 
 // DELETE "/api/notes" deletes the note with an id equal to req.params.id
