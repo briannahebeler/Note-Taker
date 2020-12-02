@@ -22,6 +22,6 @@ You can check out some of my other projects at briannahebeler (https://github.co
 
 ## Links
 
-* Deployed Application: (This should be the link to the url provided by Heroku)
+* Deployed Application: https://notetaker-briheb.herokuapp.com/ 
 
 * GitHub Repo: https://github.com/briannahebeler/Note-Taker
