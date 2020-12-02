@@ -3,6 +3,8 @@ const router = require("express").Router();
 
 // "/notes" responds with the notes.html file
 // YOUR CODE HERE
+//use bottom as example
+//~15 m into monday morn video
 
 
 
