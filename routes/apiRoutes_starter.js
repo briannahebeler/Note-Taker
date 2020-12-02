@@ -21,7 +21,7 @@ router.post("/notes", (req, res) => {
 
 // DELETE "/api/notes" deletes the note with an id equal to req.params.id
 // Use removeNote method in the store object
-router.delete("/notes", (req, res) => {
+router.delete("/notes:/id", (req, res) => {
   store
   .removeNote(req.params.id)
   .then((notes) => res.json(notes))

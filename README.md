@@ -11,7 +11,7 @@ A notes application deployed on Heroku. This application allows the user to writ
 * [Links](#links) 
 
 ## Screenshots
-![](./assets/screenshots/screenshot.png)
+![](./public/assets/screenshots/screenshot1.png)
 
 ## Contributing
 To contribute to this project you can fork this GitHub repository.
